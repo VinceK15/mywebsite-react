@@ -1,5 +1,7 @@
 Vincent Kuan's Website - Made with ReactJS
 
+To run, install ReactJS and npm. 
+
 In the project directory, you can run:
 
 ### `npm start`
