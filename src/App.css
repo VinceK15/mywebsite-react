@@ -1,6 +1,7 @@
 a{
   color: darkcyan;
 }
+
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("./img/treeskybackground.jpg"); /* Credit to https://twitter.com/MmaMaggy */
@@ -27,6 +28,10 @@ p{
   margin-left: 5em;
 }
 
+.AboutMeTitle{
+  text-decoration: underline;
+}
+
 .githublink{
   float: left;
   font-size:125%;
@@ -45,17 +50,19 @@ p{
  margin-top: 1em;
 }
 
-.videolink{
-  float: left;
-  font-size:125%;
-  margin-top: 1em;
-}
-
 .logo{
   height: 50px;
   width: 50px;
   display: inline;
   margin-right: 7em;
+}
+
+.links {
+  color:rgb(38, 147, 236);
+  font-family: Calibri;
+  font-size: 75%;
+  display: inline;
+  margin-right: 1.7em;
 }
 
 .myName{
@@ -70,16 +77,14 @@ p{
 .project1{
   display: inline-block;
 }
-.links {
-  color:rgb(38, 147, 236);
-  font-family: Calibri;
-  font-size: 75%;
-  display: inline;
-  margin-right: 1.7em;
+.project1title{
+  float:left;
 }
 
-.AboutMeTitle{
-  text-decoration: underline;
+.videolink{
+  float: left;
+  font-size:125%;
+  margin-top: 1em;
 }
 
 

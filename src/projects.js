@@ -16,7 +16,7 @@ const projects = () => {
         <br></br>
         <br></br>
         <div className="project1">
-        <p>Taskmanager with React.JS (Github):</p>  
+        <p className="project1title">Taskmanager with React.JS (Github):</p>  
         <a href="https://github.com/VinceK15/taskmanager" className="githublink">GitHub</a>
         <a href="https://taskmanagervincek15.herokuapp.com" className="herokulink">Website</a>
         <a href="https://www.youtube.com/watch?v=R5uAkLNBzs4&ab_channel=VincentKuan" className="videolink" >Video Demonstration</a>
