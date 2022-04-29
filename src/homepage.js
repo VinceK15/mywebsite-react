@@ -4,9 +4,9 @@ import logo from './logo2.jpg';
 const homepage = () => {
     return <div id="background">
         <h1 className='myName'>Vincent Kuan <img className='logo' src={logo} />
-        <a href="./homepage" id="links">Home</a>
-        <a href="./aboutMe" id="links">About Me</a>
-        <a href="./projects" id="links">Projects</a>
+        <a href="./homepage" className="links">Home</a>
+        <a href="./aboutMe" className="links">About Me</a>
+        <a href="./projects" className="links">Projects</a>
         </h1>
         <br></br>
         <br></br>

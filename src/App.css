@@ -1,3 +1,6 @@
+a{
+  color: darkcyan;
+}
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("./img/treeskybackground.jpg"); /* Credit to https://twitter.com/MmaMaggy */
@@ -9,6 +12,41 @@ body{
 
 div{
   text-align: center;
+}
+
+h1 {
+  color: lightgray;
+  font-size:250%;
+  text-align: center;
+  margin-right: 2%;
+}
+
+p{
+  color: lightgray;
+  font-size:125%;
+  float:left;
+  margin-left: 10em;
+}
+
+.githublink{
+  float: left;
+  font-size:125%;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.herokulink{
+  float: left;
+  font-size:125%;
+ margin-right: 1em;
+ margin-top: 1em;
+}
+
+.videolink{
+  float: left;
+  font-size:125%;
+  margin-top: 1em;
 }
 
 .logo{
@@ -23,38 +61,14 @@ div{
 }
 
 .preview1{
-  height: 20%;
-  width: 25%;
-  float:right;
-  margin-right: 20%;
+  width: 30%;
+  display: inline;
 }
 
-a{
-  color: darkcyan;
+.project1{
+  display: inline-block;
 }
-
-.pimage{
-  margin-left:17%;
-  white-space: nowrap;
-  float:left;
-  margin-top:7%;
-}
-
-h1 {
-  color: lightgray;
-  font-size:250%;
-  text-align: center;
-  margin-right: 2%;
-}
-
-p{
-  color: lightgray;
-  font-size:125%;
-  text-align:center;
-}
-
-
-#links {
+.links {
   color:rgb(38, 147, 236);
   font-family: Calibri;
   font-size: 75%;
@@ -62,9 +76,11 @@ p{
   margin-right: 1.7em;
 }
 
-#AboutMeTitle{
+.AboutMeTitle{
   text-decoration: underline;
 }
+
+
 
 @media only screen and (max-device-width: 600px) {
   div {
@@ -90,11 +106,7 @@ p{
     display: inline;
   }
 
-  .pimage{
-    margin-right:auto;
-  }
-
-  .GithubTitle{
+  .githublink{
     margin-right:auto;
   }
 }
