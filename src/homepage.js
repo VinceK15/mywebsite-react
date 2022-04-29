@@ -11,7 +11,7 @@ const homepage = () => {
         <br></br>
         <br></br>
 
-<p>Hi! My name is Vincent Kuan and I am a graduate at Seneca College, majoring in Computer Programming. I am currently looking
+<p className="homeparagraph">Hi! My name is Vincent Kuan and I am a graduate at Seneca College, majoring in Computer Programming. I am currently looking
 for an entry-level software developer position</p>
 
 <p>My first experience with computer programming was in high school with Turing and Web Development. </p>

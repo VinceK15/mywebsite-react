@@ -24,8 +24,7 @@ h1 {
 p{
   color: lightgray;
   font-size:125%;
-  float:left;
-  margin-left: 10em;
+  margin-left: 5em;
 }
 
 .githublink{
@@ -36,6 +35,9 @@ p{
   margin-top: 1em;
 }
 
+.homeparagraph{
+  text-align:center;
+}
 .herokulink{
   float: left;
   font-size:125%;
