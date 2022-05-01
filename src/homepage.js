@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo2.jpg';
-import {AnimatePresence, motion} from "framer-motion"
+import {motion} from "framer-motion"
 
 export default function Homepage() {
     const [isModalOpen, setIsModalOpen] = useState(false);
