@@ -34,20 +34,22 @@ p{
 
 .githublink{
   float: left;
+  color: rgb(38, 147, 236);
   font-size:125%;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 7em;
 }
 
 .homeparagraph{
   text-align:center;
 }
 .herokulink{
+  color:rgb(38, 147, 236);
   float: left;
   font-size:125%;
  margin-right: 1em;
- margin-top: 1em;
+ margin-top: 7em;
 }
 
 .logo{
@@ -69,25 +71,13 @@ p{
   font-family: Cambria;
 }
 
-.preview1{
-  width: 30%;
-  display: inline;
-}
-
 .project1{
-  display: inline-block;
+  display: inline-flex;
 }
 .project1title{
   float:left;
+  margin-top: 7em;
 }
-
-.videolink{
-  float: left;
-  font-size:125%;
-  margin-top: 1em;
-}
-
-
 
 @media only screen and (max-device-width: 600px) {
   div {

@@ -19,10 +19,12 @@ const projects = () => {
         <p className="project1title">Taskmanager with React.JS (Github):</p>  
         <a href="https://github.com/VinceK15/taskmanager" className="githublink">GitHub</a>
         <a href="https://taskmanagervincek15.herokuapp.com" className="herokulink">Website</a>
-        <a href="https://www.youtube.com/watch?v=R5uAkLNBzs4&ab_channel=VincentKuan" className="videolink" >Video Demonstration</a>
-        <img src={preview1} class="preview1"></img>
+        <iframe className="project1video"width="500" height="400" src="https://youtube.com/embed/ISL8pkKJfSY"> </iframe>
         </div>
     </div>;
 };
+
+//<img src={preview1} class="preview1"></img>
+//Image preview of project1
 
 export default projects;
